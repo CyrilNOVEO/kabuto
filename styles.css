@@ -1,0 +1,51 @@
+/* Styles CSS dans le fichier styles.css */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px; /* Largeur maximale pour limiter la largeur sur les grands écrans */
+    margin: 0 auto; /* Centrer horizontalement */
+    padding: 20px;
+}
+
+.controls-container {
+    background-color: #f0f0f0;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.control-group {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.control-group label {
+    margin-right: 10px;
+}
+
+.charts-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.chart {
+    width: 45%;
+    height: 400px;
+}
